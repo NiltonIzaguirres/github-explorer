@@ -1,5 +1,3 @@
-English | [Portuguese](./README-pt-br.md)
-
 <h1 align="center">
     📚 <a href="#"> Github Explorer </a>
 </h1>
