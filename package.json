@@ -5,9 +5,12 @@
   "repository": "git@github.com:NiltonIzaguirres/github-explorer.git",
   "author": "Nilton Izaguirres <niltonizaguirres2003@gmail.com>",
   "license": "MIT",
+  "homepage": "https://niltonizaguirres.github.io/github-explorer",
   "scripts": {
     "dev": "webpack server",
-    "build": "cross-env NODE_ENV=production webpack"
+    "build": "cross-env NODE_ENV=production webpack",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^17.0.2",
@@ -25,6 +28,7 @@
     "babel-loader": "^8.2.2",
     "cross-env": "^7.0.3",
     "css-loader": "^6.2.0",
+    "gh-pages": "^4.0.0",
     "html-webpack-plugin": "^5.3.2",
     "node-sass": "^6.0.1",
     "react-refresh": "^0.10.0",
