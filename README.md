@@ -3,7 +3,7 @@
 </h1>
 
 <h1 align="center">
-    <img alt="Github Explorer" src="https://media.discordapp.net/attachments/880027077884137492/880027155990446090/screenshot-localhost_8080-2021.08.25-06_25_34.png" />
+    <img alt="Github Explorer" src="https://extras.niltonizaguirres.com/assets/projects/github-explorer.png" />
 </h1>
 
 
